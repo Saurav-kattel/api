@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend pratice",
+  "main": "index.js",
+  "scripts": {
+    "test": "run",
+    "express": "nodemon index.js"
+  },
+  "author": "saurav kattel",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.2",
+    "mongoose-type-email": "^1.1.2",
+    "nodemon": "^2.0.19"
+  }
+}
